@@ -1,9 +1,17 @@
+body {
+    background-color: slategray;
+}
+
 .center {
     text-align: center;
 }
 
+.box {
+    inline-size: 330px;
+}
+
 .topTitle {
-    color: deeppink;
+    color: crimson;
 }
 
 .purpTitle {
