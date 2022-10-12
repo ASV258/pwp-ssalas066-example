@@ -1,27 +1,40 @@
+/*.backImg {
+    background-image: url("");
+    background-color: transparent;
+}*/
+
 body {
-    background-color: slategray;
+    background-color: lightgray;
 }
 
 .center {
     text-align: center;
 }
 
+/*
+Text color complementary options
+#63659C   #9C9A63
+#9F606D   #8D9F60   #609F92   #72609F
+ */
+
+header h1 {
+    color: black;
+}
+
 .box {
-    inline-size: 330px;
+    inline-size: 500px;
 }
 
-.topTitle {
-    color: crimson;
+.topTitle h1 {
+    color: #609F92;
 }
 
-.purpTitle {
-
+p {
+    color: #72609F;
+    text-align: center;
 }
 
-.audTitle {
-
-}
-
-.goalTitle {
-
+.cusTitle h2 {
+    color: #8D9F60;
+    text-align: left;
 }
