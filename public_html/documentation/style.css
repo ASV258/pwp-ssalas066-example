@@ -11,12 +11,6 @@ body {
     text-align: center;
 }
 
-/*
-Text color complementary options
-#63659C   #9C9A63
-#9F606D   #8D9F60   #609F92   #72609F
- */
-
 header h1 {
     color: black;
 }
@@ -37,4 +31,15 @@ p {
 .cusTitle h2 {
     color: #8D9F60;
     text-align: left;
+}
+
+
+/*BOOTSTRAP CSS*/
+
+.my-nav {
+    background-color: red !important;
+}
+
+.body-color {
+    background-color: #6C0BA9 !important;
 }
