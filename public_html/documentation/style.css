@@ -43,3 +43,59 @@ p {
 .body-color {
     background-color: #6C0BA9 !important;
 }
+
+/*ATTEMPT TO USE CSS IN CREATING ZIG ZAG FORMAT FOR WORK SECTION*/
+
+.work-timeline {
+    position: relative;
+    padding: 4px 0 0 0;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.work-timeline>li:nth-child(even) {
+    position: relative;
+    margin-bottom: 60px;
+    height: 150px;
+    right: 120px;
+}
+
+.work-timeline>li:nth-child(odd) {
+    position: relative;
+    margin-bottom: 60px;
+    height: 150px;
+    right: 120px;
+}
+
+.work-timeline>li:before,
+.work-timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.work-timeline>li:nth-child(odd) .line:before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 690px;
+    width: 4px;
+    height: 340px;
+    background-color: #3b5998;
+    transform: rotate(-44deg);
+    box-shadow: 0 0 5px black;
+}
+
+.work-timeline>li:nth-child(even) .line:after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 450px;
+    width: 4px;
+    height: 340px;
+    background-color: #3b5998;
+    transform: rotate(44deg);
+    box-shadow: 0 0 5px black;
+}
+
