@@ -36,12 +36,12 @@ p {
 
 /*BOOTSTRAP CSS*/
 
-.my-nav {
-    background-color: red !important;
-}
+/*.my-nav {*/
+/*    background-color: red !important;*/
+/*}*/
 
 .body-color {
-    background-color: #6C0BA9 !important;
+    background-color: #CCBE9F !important;
 }
 
 /*ATTEMPT TO USE CSS IN CREATING ZIG ZAG FORMAT FOR WORK SECTION*/
@@ -53,49 +53,113 @@ p {
     list-style: none;
 }
 
-.work-timeline>li:nth-child(even) {
+.work-timeline > li:nth-child(even) {
     position: relative;
-    margin-bottom: 60px;
-    height: 150px;
-    right: 120px;
+    margin-bottom: 50px;
+    height: 170px;
+    right: -110px;
 }
 
-.work-timeline>li:nth-child(odd) {
+.work-timeline > li:nth-child(odd) {
     position: relative;
-    margin-bottom: 60px;
-    height: 150px;
-    right: 120px;
+    margin-bottom: 50px;
+    height: 170px;
+    right: -110px;
 }
 
-.work-timeline>li:before,
-.work-timeline>li:after {
+.work-timeline > li:before, .work-timeline > li:after {
     content: " ";
     display: table;
 }
 
-.work-timeline>li:nth-child(odd) .line:before {
-    content: "";
-    position: absolute;
-    top: 60px;
-    bottom: 0;
-    left: 690px;
-    width: 4px;
-    height: 340px;
-    background-color: #3b5998;
-    transform: rotate(-44deg);
-    box-shadow: 0 0 5px black;
+.work-timeline> li:after {
+    clear: both;
+    min-height: 160px;
 }
 
-.work-timeline>li:nth-child(even) .line:after {
-    content: "";
-    position: absolute;
-    top: 60px;
-    bottom: 0;
-    left: 450px;
-    width: 4px;
-    height: 340px;
-    background-color: #3b5998;
-    transform: rotate(44deg);
-    box-shadow: 0 0 5px black;
+.work-timeline > li.work-timeline-panel {
+    position: relative;
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
 }
+
+.work-timeline>li .work-timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.work-timeline>li .work-timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.work-timeline > li .work-time-image {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    border: 7px solid #E0DCD3;
+    border-radius: 100%;
+    background-color: #E0DCD3;
+    box-shadow: 0 0 5px #382119;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+}
+
+.work-timeline > li .work-time-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.work-timeline > li.work-timeline-inverted > .work-timeline-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+}
+
+.work-timeline > li.work-timeline-inverted>.work-timeline:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+/*.work-timeline>li:before,*/
+/*.work-timeline>li:after {*/
+/*    content: " ";*/
+/*    display: table;*/
+/*}*/
+
+/*.work-timeline>li:nth-child(odd) .line:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    bottom: 0;*/
+/*    left: 690px;*/
+/*    width: 4px;*/
+/*    height: 340px;*/
+/*    background-color: #3b5998;*/
+/*    transform: rotate(-44deg);*/
+/*    box-shadow: 0 0 5px black;*/
+/*}*/
+
+/*.work-timeline>li:nth-child(even) .line:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    bottom: 0;*/
+/*    left: 450px;*/
+/*    width: 4px;*/
+/*    height: 340px;*/
+/*    background-color: #3b5998;*/
+/*    transform: rotate(44deg);*/
+/*    box-shadow: 0 0 5px black;*/
+/*}*/
 
