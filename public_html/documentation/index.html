@@ -14,37 +14,16 @@
 <!-- NAV BAR -->
 <!-- BORDER BORDER-DARK ROUNDED -->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
-        <a>
-            <img src="img/placeholder-banner.png" alt="logo">
+        <a class="navbar-brand" href="#">
+            <img src="img/placeholder-banner.png" href="#" alt="logo">
         </a>
-        <button class="navbar-toggler collapsed" type="button" data-bs-target="logonavbarCollapse" aria-controls="navbarNavAltMarkup" aria-expand="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
-            <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="toggler-icon"></span>
 
-            </a>
-        </div>
-    </div>
-</nav>
-
-
-
-
-<nav class="navbar navbar-expand-lg bg-transparent container mt-lg-3">
-    <div class="container-fluid">
-        <!--        This anchor will redirect to the home page-->
-        <a>
-            <img src="img/placeholder-banner.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-collapse collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="#">Recent Work</a>
                 <a class="nav-link" href="#">Contact</a>
@@ -54,14 +33,47 @@
     </div>
 </nav>
 
+
+
+
+<!--<nav class="navbar navbar-expand-lg bg-transparent container mt-lg-3">-->
+<!--    <div class="container-fluid">-->
+<!--        &lt;!&ndash;        This anchor will redirect to the home page&ndash;&gt;-->
+<!--        <a>-->
+<!--            <img src="img/placeholder-banner.png" alt="logo">-->
+<!--        </a>-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"-->
+<!--                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+<!--            <div class="navbar-nav ms-auto">-->
+<!--                <a class="nav-link" href="#">Recent Work</a>-->
+<!--                <a class="nav-link" href="#">Contact</a>-->
+<!--                &lt;!&ndash;            OPTIONAL LINK/DROPDOWN FOR EN/ES&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
 <!--HOME PAGE-->
 <!--JAVASCRIPT FOR ENGLISH TO SPANISH, REFERENCE THE REPLACE TEXT OR CHANGE TEXT IN JAVASCRIPT CHALLENGE -->
 <!--CHANGE BACKGROUND TO CREAM, AVOID PURPLE/BLACK -->
 <section class="bg-dark py-5" id="home">
+<!--    <div class="col-10 col-sm-8 col-lg-6">-->
+<!--        <img class="d-block mx-lg-auto img-fluid" src="img/placehold-scared-resize.png" alt="scared" loading="lazy" width="185" height="302">-->
+<!--    </div>-->
+<!--    <div class="col-lg-6">-->
+<!--        <h6 class="text-warning">FULLSTACK WEB DEVELOPER</h6>-->
+<!--        <h2 class="text-white">HI, I AM A FULLSTACK DEVELOPER RESHAPING USER INTERACTION</h2>-->
+<!--        <p class="text-white">My mission is to design and develop a website that cultivates your audience and captures YOUR values, YOUR vision.</p>-->
+<!--    </div>-->
+
+
     <div class="container text-center py-5 mb-4">
         <div class="row gx-4 gy-4">
-            <div class="col-md-6 gx-4 gy-4">
-                <div class="col-lg-3 text-left">
+            <div class="col-lg-6 gx-4 gy-4">
+                <div class="col-lg-10 text-left">
                     <h6 class="text-warning">FULLSTACK WEB DEVELOPER</h6>
                     <h2 class="text-white">HI, I AM A FULLSTACK DEVELOPER RESHAPING USER INTERACTION</h2>
                     <p class="text-white">My mission is to design and develop a website that cultivates your audience
@@ -69,12 +81,13 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <img class="img-fluid" src="img/placehold-scared-resize.png" alt="scared">
             </div>
         </div>
     </div>
 </section>
+
 
 <!--RECENT WORK-->
 <!--FIRST TWO CARDS DIFFER FROM LAST TWO CARDS-->
