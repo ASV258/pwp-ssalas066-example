@@ -40,12 +40,35 @@ p {
 /*    background-color: red !important;*/
 /*}*/
 
-.body-color {
-    background-color: #CCBE9F !important;
+/*STYLING FOR NAV BAR AND HERO HOME SECTION*/
+
+nav {
+    background-color: #092C48;
 }
 
-.main-wrapper {
-    height: available;
+.body-color {
+    background-color: #092C48 !important;
+}
+
+* #home {
+    background-color: #092C48;
+}
+
+* #hero-photo {
+    /*border-radius: 20px;*/
+    border: 10px solid;
+    border-image: round linear-gradient(black, slategrey) 20;
+}
+
+/*.main-wrapper {*/
+/*    height: available;*/
+/*}*/
+
+
+/*STYLING FOR CARDS IN RECENT WORK SECTION*/
+
+.recent-work h1 {
+    color: #A3B7F9 !important;
 }
 
 .card-image-top {
@@ -62,144 +85,37 @@ p {
     margin-left: -130px;
 }
 
+.card-body {
+    color: #383745;
 
+}
 
-/*ATTEMPT TO USE CSS IN CREATING ZIG ZAG FORMAT FOR WORK SECTION*/
+.card-body p.card-text {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    color: #2A385B;
+}
 
-/*.work-timeline {*/
-/*    position: relative;*/
-/*    padding: 4px 0 0 0;*/
-/*    margin-top: 25px;*/
-/*    list-style: none;*/
-/*}*/
+.card {
+    background-color: #6F7498 !important;
+}
 
-/*.work-timeline > li:nth-child(even) {*/
-/*    position: relative;*/
-/*    margin-bottom: 50px;*/
-/*    height: 180px;*/
-/*    right: -100px;*/
-/*}*/
+/*STYLING FOR CONTACT SECTION*/
+* #contact {
+    color: #A3B7F9 !important;
+}
 
-/*.work-timeline > li:nth-child(odd) {*/
-/*    position: relative;*/
-/*    margin-bottom: 50px;*/
-/*    height: 180px;*/
-/*    right: -100px;*/
-/*}*/
+* #submit-contact {
+    background-color: #6F7498 !important;
+}
 
-/*.work-timeline > li:before, .work-timeline > li:after {*/
-/*    content: " ";*/
-/*    display: table;*/
-/*}*/
+/*STYLING FOR FOOTER SECTION*/
 
-/*.work-timeline> li:after {*/
-/*    clear: both;*/
-/*    min-height: 170px;*/
-/*}*/
+.footer-content {
+    background-color: #092C48 !important;
+}
 
-/*.work-timeline > li.work-timeline-panel {*/
-/*    position: relative;*/
-/*    float: left;*/
-/*    width: 41%;*/
-/*    padding: 0 20px 20px 30px;*/
-/*    text-align: right;*/
-/*}*/
-
-/*.work-timeline>li .work-timeline-panel:before {*/
-/*    right: auto;*/
-/*    left: -15px;*/
-/*    border-right-width: 15px;*/
-/*    border-left-width: 0;*/
-/*}*/
-
-/*.work-timeline>li .work-timeline-panel:after {*/
-/*    right: auto;*/
-/*    left: -14px;*/
-/*    border-right-width: 14px;*/
-/*    border-left-width: 0;*/
-/*}*/
-
-
-
-/*.work-timeline > li .work-time-image {*/
-/*    z-index: 100;*/
-/*    position: relative;*/
-/*    overflow: hidden;*/
-/*    left: 50%;*/
-/*    border: 7px solid #E0DCD3;*/
-/*    border-radius: 100%;*/
-/*    background-color: #E0DCD3;*/
-/*    box-shadow: 0 0 5px #382119;*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*    margin-left: -100px;*/
-/*}*/
-
-/*.work-timeline > li .work-time-image h4 {*/
-/*    margin-top: 12px;*/
-/*    font-size: 10px;*/
-/*    line-height: 14px;*/
-/*}*/
-
-/*.work-timeline > li.work-timeline-inverted > .work-timeline-panel {*/
-/*    float: right;*/
-/*    padding: 0 30px 20px 20px;*/
-/*    text-align: left;*/
-/*}*/
-
-/*.work-timeline > li.work-timeline-inverted>.work-timeline-panel:before {*/
-/*    right: auto;*/
-/*    left: -15px;*/
-/*    border-right-width: 15px;*/
-/*    border-left-width: 0;*/
-/*}*/
-
-/*.work-timeline > li.work-timeline-inverted>.work-timeline-panel:after {*/
-/*    right: auto;*/
-/*    left: -14px;*/
-/*    border-right-width: 14px;*/
-/*    border-left-width: 0;*/
-/*}*/
-
-/*.work-timeline > li:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
-
-/*.work-timeline .work-timeline-heading h4 {*/
-/*    margin-top: 22px;*/
-/*    margin-bottom: 4px;*/
-/*    padding: 0;*/
-/*    color: #382119;*/
-/*}*/
-
-/*.work-timeline .work-timeline-heading h4.subheading {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    text-transform: none;*/
-/*    font-size: 18px;*/
-/*    color: #ABC3C9;*/
-/*}*/
-
-/*.work-timeline .work-timeline-body>p,*/
-/*.work-timeline .work-timeline-body>ul {*/
-/*    margin-bottom: 0;*/
-/*    color: #C6D4E1;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.link-email {
+    color: #A3B7F9 !important;
+}
