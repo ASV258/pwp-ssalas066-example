@@ -13,7 +13,6 @@
 
 <!-- NAV BAR -->
 <!-- BORDER BORDER-DARK ROUNDED -->
-
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -33,43 +32,12 @@
     </div>
 </nav>
 
-
-
-
-<!--<nav class="navbar navbar-expand-lg bg-transparent container mt-lg-3">-->
-<!--    <div class="container-fluid">-->
-<!--        &lt;!&ndash;        This anchor will redirect to the home page&ndash;&gt;-->
-<!--        <a>-->
-<!--            <img src="img/placeholder-banner.png" alt="logo">-->
-<!--        </a>-->
-<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"-->
-<!--                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--            <span class="navbar-toggler-icon"></span>-->
-<!--        </button>-->
-<!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
-<!--            <div class="navbar-nav ms-auto">-->
-<!--                <a class="nav-link" href="#">Recent Work</a>-->
-<!--                <a class="nav-link" href="#">Contact</a>-->
-<!--                &lt;!&ndash;            OPTIONAL LINK/DROPDOWN FOR EN/ES&ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</nav>-->
-
 <!--HOME PAGE-->
 <!--JAVASCRIPT FOR ENGLISH TO SPANISH, REFERENCE THE REPLACE TEXT OR CHANGE TEXT IN JAVASCRIPT CHALLENGE -->
 <!--CHANGE BACKGROUND TO CREAM, AVOID PURPLE/BLACK -->
-<section class="bg-dark py-5" id="home">
-<!--    <div class="col-10 col-sm-8 col-lg-6">-->
-<!--        <img class="d-block mx-lg-auto img-fluid" src="img/placehold-scared-resize.png" alt="scared" loading="lazy" width="185" height="302">-->
-<!--    </div>-->
-<!--    <div class="col-lg-6">-->
-<!--        <h6 class="text-warning">FULLSTACK WEB DEVELOPER</h6>-->
-<!--        <h2 class="text-white">HI, I AM A FULLSTACK DEVELOPER RESHAPING USER INTERACTION</h2>-->
-<!--        <p class="text-white">My mission is to design and develop a website that cultivates your audience and captures YOUR values, YOUR vision.</p>-->
-<!--    </div>-->
 
-
+<section class="home-hero bg-dark py-5" id="home">
+    <div class="main-wrapper">
     <div class="container text-center py-5 mb-4">
         <div class="row gx-4 gy-4">
             <div class="col-lg-6 gx-4 gy-4">
@@ -86,85 +54,188 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
-
 
 <!--RECENT WORK-->
 <!--FIRST TWO CARDS DIFFER FROM LAST TWO CARDS-->
 <!--CARDS DISCARDED FOR NOW, ATTEMPTING ROW/COL WITH CSS-->
-<section class="container my-5" id="work">
 
-    <div class="row">
-        <div class="col-lg-12">
-            <h3 class="text-center">Recent Work</h3>
-            <ul class="work-timeline">
-                <li>
-                    <div class="work-time-image">
-                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"
-                             alt="placehold-300">
+<div class="album py-5">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-lg-2 g-5">
+<!--            1-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">SQL Challenge</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                    <div class="work-timeline-panel">
-                        <div class="work-timeline-heading">
-                            <h4>Color Picker</h4>
-                            <h4 class="subheading">Deep Dive Coding</h4>
-                        </div>
-                        <div class="work-timeline-body">
-                            <p>IPSUM IPSUM IPSUM</p>
-                        </div>
+                </div>
+            </div>
+<!--            2-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">JavaScript Events Challenge</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                </li>
-                <li class="work-time-inverted">
-                    <div class="work-time-image">
-                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"
-                             alt="placehold-300">
+                </div>
+            </div>
+<!--            3-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">Bootstrap Challenge</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                    <div class="work-timeline-panel">
-                        <div class="work-timeline-heading">
-                            <h4>Shopping List</h4>
-                            <h4 class="subheading">Deep Dive Coding</h4>
-                        </div>
-                        <div class="work-timeline-body">
-                            <p>IPSUM IPSUM IPSUM</p>
-                        </div>
+                </div>
+            </div>
+<!--            4-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">CSS Challenge</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                </li>
-                <li>
-                    <div class="work-time-image">
-                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"
-                             alt="placehold-300">
+                </div>
+            </div>
+<!--            5-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">UI/UX Challenge</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                    <div class="work-timeline-panel">
-                        <div class="work-timeline-heading">
-                            <h4>Color Picker</h4>
-                            <h4 class="subheading">Deep Dive Coding</h4>
-                        </div>
-                        <div class="work-timeline-body">
-                            <p>IPSUM IPSUM IPSUM</p>
-                        </div>
+                </div>
+            </div>
+<!--            6-->
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">Shopping List</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                </li>
-                <li class="work-time-inverted">
-                    <div class="work-time-image">
-                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"
-                             alt="placehold-300">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img class="card-image-top" src="img/placehold-scared-300-300.png" alt="placehold work">
+                    <div class="card-body">
+                        <h4 class="card-title">Color Picker</h4>
+                        <h6 class="card-subheading">CNM Ingenuity Deep Dive Coding</h6>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                        </p>
                     </div>
-                    <div class="work-timeline-panel">
-                        <div class="work-timeline-heading">
-                            <h4>Shopping List</h4>
-                            <h4 class="subheading">Deep Dive Coding</h4>
-                        </div>
-                        <div class="work-timeline-body">
-                            <p>IPSUM IPSUM IPSUM</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
-</section>
+
+
+
+
+<!--<section class="container my-5" id="work">-->
+<!--    <div class="row">-->
+<!--        <div class="col-lg-12">-->
+<!--            <h5 class="text-center">Recent Work</h5>-->
+<!--            <ul class="work-timeline">-->
+<!--                <li>-->
+<!--                    <div class="work-time-image">-->
+<!--                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"-->
+<!--                             alt="placehold-300">-->
+<!--                    </div>-->
+<!--                    <div class="work-timeline-panel">-->
+<!--                        <div class="work-timeline-heading">-->
+<!--                            <h4>Color Picker</h4>-->
+<!--                            <h4 class="subheading">Deep Dive Coding</h6>-->
+<!--                        </div>-->
+<!--                        <div class="work-timeline-body">-->
+<!--                            <p>IPSUM IPSUM IPSUM</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class="work-time-inverted">-->
+<!--                    <div class="work-time-image">-->
+<!--                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"-->
+<!--                             alt="placehold-300">-->
+<!--                    </div>-->
+<!--                    <div class="work-timeline-panel">-->
+<!--                        <div class="work-timeline-heading">-->
+<!--                            <h4>Shopping List</h4>-->
+<!--                            <h4 class="subheading">Deep Dive Coding</h6>-->
+<!--                        </div>-->
+<!--                        <div class="work-timeline-body">-->
+<!--                            <p>IPSUM IPSUM IPSUM</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <div class="work-time-image">-->
+<!--                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"-->
+<!--                             alt="placehold-300">-->
+<!--                    </div>-->
+<!--                    <div class="work-timeline-panel">-->
+<!--                        <div class="work-timeline-heading">-->
+<!--                            <h4>Color Picker</h4>-->
+<!--                            <h4 class="subheading">Deep Dive Coding</h6>-->
+<!--                        </div>-->
+<!--                        <div class="work-timeline-body">-->
+<!--                            <p>IPSUM IPSUM IPSUM</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class="work-time-inverted">-->
+<!--                    <div class="work-time-image">-->
+<!--                        <img class="img-square img-responsive" src="img/placehold-scared-300-300.png"-->
+<!--                             alt="placehold-300">-->
+<!--                    </div>-->
+<!--                    <div class="work-timeline-panel">-->
+<!--                        <div class="work-timeline-heading">-->
+<!--                            <h4>Shopping List</h4>-->
+<!--                            <h4 class="subheading">Deep Dive Coding</h6>-->
+<!--                        </div>-->
+<!--                        <div class="work-timeline-body">-->
+<!--                            <p>IPSUM IPSUM IPSUM</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
 
 <!--CONTACT ME-->
+
 <section class="container my-5" id="contact">
     <div class="text-center my-4">
         <h1 class="font-weight-bold">Contact Me</h1>
@@ -191,6 +262,7 @@
 </section>
 
 <!--FOOTER-->
+
 <footer class="bg-dark text-white py-5 text-center">
     <div class="container">
         <div class="footer-grid">
@@ -208,6 +280,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-
 </body>
 </html>
